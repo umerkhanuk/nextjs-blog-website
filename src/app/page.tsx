@@ -1,101 +1,43 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+    <>
+      <div className="flex flex-col gap-4 items-center justify-center h-[450px] bg-cover bg-center" style={{backgroundImage:"url('/banner.png')"}}>
+        <h1 className="text-5xl font-semibold">NEXT JS-15</h1>
+        <p className="lg:px-72 py-4 text-lg text-center">Next.js 15 is officially stable and ready for production. This release builds on the updates from both RC1 and RC2. We've focused heavily on stability while adding some exciting updates we think you'll love. Try Next.js 15 today:</p>
+        <button className="bg-[#ff3366] text-white px-8 py-4 rounded-full">Explore, Free</button>
+      </div>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+      <div className="flex flex-col gap-4  m-6 px-10 lg:m-20 py-12 lg:px-20 items-center justify-center  bg-[#f8f8f9]">
+        <h2 className="text-4xl font-[600]">Using Next.js 15 feels like a breath of fresh air in modern web development. It's as if all the best practices, performance optimizations, and ease of use have been distilled into one seamless experience. Building applications with Next.js isn’t just about writing code; it’s about creating something that feels intuitive, responsive, and scalable.</h2>
+        <h4 className="">Kirti Bansal</h4>
+        <p className="">Sr. Product Designer, AdvisorEngine</p>
+      </div>
+
+      <div className="flex flex-col pt-20 py-9 gap-4 pl-3 h-[min-450px]">
+      <h2 className="text-5xl font-bold py-7">See how the world's smartest teams use Next Js</h2>
+      </div>
+
+    <div className="flex flex-wrap gap-2 md:gap-3 lg:gap-7 mx-3 mb-14 text-center items-center">
+      <div className="flex flex-col w-full bg-[#2ea3e3] md:w-[48%] lg:w-[31%] float-left  min-h-64 justify-center p-10 md:p-6 text-white gap-3">
+      <h3 className="text-4xl">Advisor Engine</h3>
+      </div>
+
+      <div className="flex flex-col w-full bg-[#4624e3] md:w-[48%] lg:w-[31%] float-left  min-h-64 justify-center p-10 md:p-6 text-white gap-3">
+      <h3 className="text-4xl">Credit SuSSie</h3>
+      </div>
+
+      <div className="flex flex-col w-full bg-[#002de8] md:w-[48%] lg:w-[31%] float-left  min-h-64 justify-center p-10 md:p-6 text-white gap-3">
+      <h3 className="text-4xl">IBM</h3>
+      </div>
     </div>
+
+    <div className="flex flex-col gap-4 items-center mt-32 justify-center h-[450px] bg-[#5001ab]">
+        <h2 className="text-5xl font-semibold text-white lg:px-32 text-center">
+        Accelerate your team's collaborative potential with Next.js 15. It’s more than just a framework—Next.js 5</h2>
+      </div>
+      </>
   );
 }
