@@ -11,7 +11,7 @@ const Header = () => {
         <div className="flex bg-[#f2f2f3] lg:h-16 lg-gap-7 lg:px-4">
             {/* logo */}
             <Image src={"/logoo.png"} alt={"logo"} width={100} height={200}></Image>
-            <ul className="flex gap-2 lg:gap-7 text-sm lg:text-base font-[600] font-sans items-center">
+            <ul className="flex gap-2 lg:gap-7 text-xs lg:text-base font-[600] font-sans items-center">
                 <li><Link href="/">Home</Link></li>
                 <li><Link href="/company">Company</Link></li>
                 <li><Link href="/blog">Blog</Link></li>
