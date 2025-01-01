@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "title": "Rebels Easily Toppled Syria’s Army. Their Challenge Now: Rebuilding.",
+    "content": "At least 30 people were injured after a vehicle drove into a crowd on Bourbon Street overnight, officials said. The governor called it an act of violence. The driver of the pickup truck is dead after getting into a shootout with police, according to two law enforcement officials. See more updates ›",
+    "comments": [
+      { "name": "Alice", "text": "Great post!" },
+      { "name": "Bob", "text": "Very informative." }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Ukraine Forces a Halt to Flow of Natural Gas From Russia to Europe",
+    "content": "A transnational pipeline was shut down on Wednesday after Kyiv refused to renew an agreement that allowed for the transit of Russian gas through its territory.",
+    "comments": [
+      { "name": "John", "text": "Nice post!" },
+      { "name": "Ran", "text": "Very informative." }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Rebels Easily Toppled Syria’s Army. Their Challenge Now: Rebuilding.",
+    "content": "The rebels’ path to victory is filled with evidence of Syria’s defeated military. It also reflects the sizable task of trying to put the country back together.",
+    "comments": [
+      { "name": "Mark", "text": "Great post!" },
+      { "name": "Alex", "text": "Very informative." }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "The Impact of Climate Change on Global Agriculture",
+    "content": "Climate change is having a profound effect on agriculture worldwide. Rising temperatures, droughts, and unpredictable weather patterns are impacting crop yields and food security.",
+    "comments": [
+      { "name": "Sarah", "text": "Very important topic!" },
+      { "name": "David", "text": "I hope we find solutions soon." }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Technological Advancements in Space Exploration",
+    "content": "NASA's latest advancements in space exploration are paving the way for more detailed studies of our solar system and beyond. The recent Mars mission is one of the most significant in human history.",
+    "comments": [
+      { "name": "Rachel", "text": "Amazing progress!" },
+      { "name": "Evan", "text": "Can't wait to see what's next." }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Understanding the Economic Impact of Artificial Intelligence",
+    "content": "AI is transforming industries across the globe. From healthcare to finance, artificial intelligence is reshaping how we work and live. But its widespread use also raises questions about its economic impact.",
+    "comments": [
+      { "name": "Oliver", "text": "Great insights on AI!" },
+      { "name": "Sophia", "text": "AI is changing everything." }
+    ]
+  }
+ ]

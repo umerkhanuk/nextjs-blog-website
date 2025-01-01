@@ -14,6 +14,7 @@ const Header = () => {
             <ul className="flex gap-2 lg:gap-7 text-sm lg:text-base font-[600] font-sans items-center">
                 <li><Link href="/">Home</Link></li>
                 <li><Link href="/company">Company</Link></li>
+                <li><Link href="/blog">Blog</Link></li>
                 <li><Link href="/contact">Contact</Link></li>
             </ul>
             <ul className="flex gap-2 lg:gap-7 text-sm lg:text-base font-[600] font-sans items-center ml-auto">
