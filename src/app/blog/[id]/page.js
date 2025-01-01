@@ -24,7 +24,7 @@ export default function BlogPost({ params }) {
   };
 
   return (
-    <div className="max-w-3xl mx-auto p-6 bg-white rounded-lg shadow-lg">
+    <div className="max-w-3xl mx-auto p-6 bg-white rounded-lg my-32">
       <h1 className="text-4xl font-bold text-gray-900 mb-4">{post.title}</h1>
       <p className="text-gray-600 mb-4">{post.content}</p>
 
